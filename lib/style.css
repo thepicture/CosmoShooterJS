@@ -1,0 +1,74 @@
+.game {
+    position: absolute;
+    background-color: black;
+    border-radius: 1%;
+}
+
+.playground {
+    position: absolute;
+    border: 3px solid white;
+}
+
+.plane {
+    position: absolute;
+    background-size: cover;
+    background-image: url('https://i.ibb.co/m5kV3Qg/plane-14x14.png');
+    background-repeat: no-repeat;
+    background-position: 100%;
+    image-rendering: pixelated;
+    transition: filter 50ms ease-in-out;
+}
+
+.enemy {
+    position: absolute;
+    background-size: cover;
+    background-image: url('https://i.ibb.co/FJ5sjwq/enemy-14x14.png');
+    background-repeat: no-repeat;
+    background-position: 100%;
+    image-rendering: pixelated;
+}
+
+.bullet {
+    position: absolute;
+    background-color: white;
+}
+
+.health-meter {
+    position: absolute;
+    border: 3px solid white;
+}
+
+.star {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color: white;
+}
+
+.interface-button {
+    position: absolute;
+    font-size: xx-large;
+    font-family: "MS Mincho", serif;
+    color: white;
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+.interface-button:hover {
+    font-weight: bold;
+}
+
+.score {
+    position: absolute;
+    font-size: xx-large;
+    font-family: "MS Mincho", serif;
+    color: white;
+}
+
+.info {
+    position: absolute;
+    color: white;
+    font-size: xxx-large;
+    font-family: "MS Mincho", serif;
+    text-align: center;
+}

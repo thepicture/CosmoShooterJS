@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="EN-en">
+<head>
+    <link rel="stylesheet" href="lib/style.css"/>
+    <title>CosmoShooterJS</title>
+</head>
+
+<body>
+<audio id="plane-shoot" src="/lib/audio/plane_shoot.wav"></audio>
+<audio id="plane-hurt" src="/lib/audio/plane_hurt.wav"></audio>
+<audio id="plane-death" src="/lib/audio/plane_death.wav"></audio>
+<audio id="enemy-death" src="/lib/audio/enemy_death.wav"></audio>
+<audio id="enemy-shoot" src="/lib/audio/enemy_shoot.wav"></audio>
+<audio id="ingame-sound" src="/lib/audio/ingame_sound.wav"></audio>
+<div class="game"></div>
+<div class="playground"></div>
+<div class="plane" hidden></div>
+<div class="interface-button">Start</div>
+<div class="score">0</div>
+<div class="info"><p>CosmoShooterJS</p>
+    <br>
+    ESC to exit through the game
+    <br>
+    WASD to move
+    <br>
+    Space to shoot
+</div>
+<meter class="health-meter" low="33" max="100" high="66" value="100" optimum="100"></meter>
+<script src="lib/script.js"></script>
+</body>
+</html>
